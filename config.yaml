@@ -1,14 +1,14 @@
 # The first folder that contains all obsidian files
 # Use full path or relative path, but don't use ~/
-obsidian_folder_path_str: './' 
+obsidian_folder_path_str: './'
 
-# The note that will be used as the index.html 
+# The note that will be used as the index.html
 # should be in obsidian_folder_path_str
 # Use full path or relative path, but don't use ~/
 obsidian_entrypoint_path_str: './README.md'
 
-html_url_prefix: '/TFS-campaign'
-site_name: 'The First Steps'
+html_url_prefix: '/Lurra-Obsidian'
+site_name: 'Adventures in Lurra'
 
 included_file_suffixes: ['jpg', 'jpeg', 'gif', 'png', 'svg', 'bmp', 'pdf', 'mp4', 'webm', 'mp3', 'wav']
 
