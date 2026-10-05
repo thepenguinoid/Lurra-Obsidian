@@ -5,15 +5,15 @@ var no_tab_mode = 1;
 var mermaid_enabled = 1;
 var toc_pane_div = "right_pane_content";
 var dir_index_pane_div = "";
-var html_url_prefix = "/TFS-campaign";
-var CONFIGURED_HTML_URL_PREFIX = "/TFS-campaign";
+var html_url_prefix = "/Lurra-Obsidian";
+var CONFIGURED_HTML_URL_PREFIX = "/Lurra-Obsidian";
 var CONFIG_ONLY_SHOW_FOR_MULTIPLE_HEADERS = 1;
 var CONFIG_CLOSE_RIGHT_PANE_IF_EMPTY = 1;
 var CONFIG_CLOSE_LEFT_PANE_IF_EMPTY = 0;
 var RELATIVE_PATHS = 0;
 var documentation_mode = 1;
 var tab_mode = !no_tab_mode;
-var gzip_hash = '290177546565083557929813825126293050619'                       // used to check whether the localStorage data is stale
+var gzip_hash = '92335096536658550145246521150412985611'                       // used to check whether the localStorage data is stale
 
 // global cache
 var fn_cache_ls_available = null;
@@ -530,7 +530,7 @@ function get_graph_data(){
     return get_html_url_prefix()+'/obs.html/data/graph.json';
 }
 function get_html_url_prefix(){
-    return '/TFS-campaign'  // this value is replaced by the actual url prefix when compiled
+    return '/Lurra-Obsidian'  // this value is replaced by the actual url prefix when compiled
 }
 
 function signal_js_enabled(container){

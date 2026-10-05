@@ -7,15 +7,15 @@
                 <meta charset="UTF-8" />
                 <meta name="node_id" content="index">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <link rel="shortcut icon" href="/TFS-campaign/favicon.ico" />
+                <link rel="shortcut icon" href="/Lurra-Obsidian/favicon.ico" />
 
                 <!-- Set title -->
-                <title>The First Steps</title>
+                <title>Adventures in Lurra</title>
 
                 <!-- Includes -->
-                <script src="/TFS-campaign/obs.html/static/obsidian_core.js"></script>
-<script src="/TFS-campaign/obs.html/static/encoding.js"></script>
-<link rel="stylesheet" href="/TFS-campaign/obs.html/static/master.css" />
+                <script src="/Lurra-Obsidian/obs.html/static/obsidian_core.js"></script>
+<script src="/Lurra-Obsidian/obs.html/static/encoding.js"></script>
+<link rel="stylesheet" href="/Lurra-Obsidian/obs.html/static/master.css" />
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
     mermaid.initialize({
@@ -47,10 +47,10 @@
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
-<script src="/TFS-campaign/obs.html/static/flexsearch.bundle.js"></script>
-<script src="/TFS-campaign/obs.html/static/pako.js"></script>
-<script src="/TFS-campaign/obs.html/static/search.js"></script>
-<script src="/TFS-campaign/obs.html/static/dirtree.js"></script>
+<script src="/Lurra-Obsidian/obs.html/static/flexsearch.bundle.js"></script>
+<script src="/Lurra-Obsidian/obs.html/static/pako.js"></script>
+<script src="/Lurra-Obsidian/obs.html/static/search.js"></script>
+<script src="/Lurra-Obsidian/obs.html/static/dirtree.js"></script>
 
 
 
@@ -58,7 +58,7 @@
                 <!-- Onload tweaks -->
                 <script>
                         const CURRENT_NODE = 'index';
-                        const HTML_URL_PREFIX = '/TFS-campaign';
+                        const HTML_URL_PREFIX = '/Lurra-Obsidian';
                         const PAGE_DEPTH = 0;
                 </script>
         </head>
@@ -97,7 +97,7 @@
     })
     document.getElementById("search_string").addEventListener("input", function(event) {
             setTimeout( () =>run_search('search_string', 'hard_search'), 100 );
-    });
+    }); 
     document.getElementById("hard_search").addEventListener("click", function(event) {
             setTimeout( () =>run_search('search_string', 'hard_search'), 100 );
     });
@@ -106,7 +106,7 @@
         if((e.key=='Escape'||e.key=='Esc'||e.keyCode==27)){
             toggle_id('search-master-div');
             return false;
-        }
+        } 
     }, true);
 
     function click_list_link(element){
@@ -117,12 +117,12 @@
         <div id="page_holder" class="flex_col">
                 <div id="header" class="header">
     <div id="header_flex" class="flex_row">
-            <a href="/TFS-campaign/index.html" id="homelink" title="Clear screen and go to homepage">The First Steps</a>
+            <a href="/Lurra-Obsidian/index.html" id="homelink" title="Clear screen and go to homepage">Adventures in Lurra</a>
             <div id="menu_toggle_button" class="navbar-button requires_js" onclick="toggle_menu()">
                     ≡
             </div>
             <div id="navbar" class="navbar requires_js">
-
+                    
                     <div class="icon-tray">
                             <div id="theme-button" class="theme-button requires_js" title="Change theme" onclick="toggle_theme_popup(this)">
     T
@@ -156,7 +156,7 @@
     }
 </script>
                                     <div onclick="openSearch()" class="theme-button requires_js">
-            <img src = "/TFS-campaign/obs.html/static/search.svg" alt="Search notes" title="Search notes" style="margin: 4px;"/>
+            <img src = "/Lurra-Obsidian/obs.html/static/search.svg" alt="Search notes" title="Search notes" style="margin: 4px;"/>
         </div>
         <script>
             function openSearch(){
@@ -165,7 +165,7 @@
                     // get input field and temporarily disable it
                     let ss = document.getElementById('search_string');
                     ss.value = 'Seach data initializing...';
-                    ss.readOnly = true;
+                    ss.readOnly = true; 
 
                     // load search data if not yet done so
                     setTimeout(function(){
@@ -173,7 +173,7 @@
 
                         // clear input and put focus on it so that we can start typing immediately
                         ss.value = '';
-                        ss.readOnly = false;
+                        ss.readOnly = false; 
                         ss.focus()
                         ss.select()
                     }, 100);
@@ -181,21 +181,21 @@
             }
         </script>
                                     <div class="graph_header_div requires_js">
-            <a id="graph_link" class="system-link" href="/TFS-campaign/obs.html/graph/index.html?node=index" title="Open fullpage Graph">
-                    <img class="graph_header_div_svg" src = "/TFS-campaign/obs.html/static/graph.svg" alt="Open fullpage Graph" style="margin: 2px; width: 17px;"/>
+            <a id="graph_link" class="system-link" href="/Lurra-Obsidian/obs.html/graph/index.html?node=index" title="Open fullpage Graph">
+                    <img class="graph_header_div_svg" src = "/Lurra-Obsidian/obs.html/static/graph.svg" alt="Open fullpage Graph" style="margin: 2px; width: 17px;"/>
             </a>
         </div>
                                     <div >
-            <a id="dirtree_link" class="system-link" href="/TFS-campaign/obs.html/dir_index.html" title="View directory tree">
-                    <img src = "/TFS-campaign/obs.html/static/dirtree.svg" style="width: 12px; padding: 4px;" alt="Directory tree link"/>
+            <a id="dirtree_link" class="system-link" href="/Lurra-Obsidian/obs.html/dir_index.html" title="View directory tree">
+                    <img src = "/Lurra-Obsidian/obs.html/static/dirtree.svg" style="width: 12px; padding: 4px;" alt="Directory tree link"/>
             </a>
         </div>
                             <div>
-    <a href="/TFS-campaign/obs.html/tags/index.html" title="Open tag view">
-            <img src = "/TFS-campaign/obs.html/static/hashtag.svg" alt="RSS Feed link" style="width: 24px; margin-left: -2px; margin-top: -2px;"/>
+    <a href="/Lurra-Obsidian/obs.html/tags/index.html" title="Open tag view">
+            <img src = "/Lurra-Obsidian/obs.html/static/hashtag.svg" alt="RSS Feed link" style="width: 24px; margin-left: -2px; margin-top: -2px;"/>
     </a>
 </div>
-
+                            
                     </div>
                     <div style="display: flex; flex-direction:column">
                         <div id="left_pane_toggle_nav" class="left_pane_toggle_nav">Toggle Directory Tree Pane</div>
@@ -209,7 +209,7 @@
     <select name="theme" id="theme" onchange="set_theme(this.value)">
       <option value="obs-light" selected="selected">obsidian-light</option>
       <option value="obs-dark">obsidian-dark</option>
-    </select>
+    </select> 
 </div>
 </div>
                 <div class="flex_row">
@@ -217,7 +217,7 @@
     <div id="left_pane_fold_header" class="left_pane_fold_header fold_header">x</div>
     <div id="left_pane_content" class="left_pane_content">
             <div id="dirtree"><ul class="dir-list">
-	<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/TFS-campaign/index.html"  >Home</a></li>
+	<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/Lurra-Obsidian/index.html"  >index</a></li>
 </ul>
 </div>
     </div>
@@ -239,7 +239,7 @@
     <div class="graph-instructions" id="D148211685894350711567829970356092748388{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
-
+    
     <div class="graph-button-row" style="display:flex;">
         <button class="graph_button graph_show_button" id="B148211685894350711567829970356092748388{level}" level="{level}" note_temp_id="148211685894350711567829970356092748388" onclick="window.ObsHtmlGraph.run(this, '148211685894350711567829970356092748388', 'index');">
             Show Graph
@@ -252,7 +252,7 @@
 
 <script type="module">
     if (window.ObsHtmlGraph == undefined){
-        import('/TFS-campaign/obs.html/static/graph.js').then((Module) => {
+        import('/Lurra-Obsidian/obs.html/static/graph.js').then((Module) => {
             window.ObsHtmlGraph = Module;
             window.ObsHtmlGraph.arm_page(document.getElementById('page_holder'))
         })
@@ -269,7 +269,7 @@
                         <div id="right_pane" class="right_pane active">
     <div id="right_pane_fold_header" class="right_pane_fold_header fold_header">x</div>
     <div id="right_pane_content" class="right_pane_content">
-
+            
     </div>
 </div>
                 </div>
@@ -278,7 +278,7 @@
         <script>
                 function handle_toggle_side_bar(e){
                         let header;
-                        let pane;
+                        let pane; 
                         let target = e.target
 
                         // switch out the navbar button click for a header click
@@ -383,8 +383,8 @@
                         set_correct_header_symbol(header);
                         header.addEventListener('click', handle_toggle_side_bar);
                 }
-
-
+                
+                
                 set_pane_folding_start()
                 init_pane_folding(document.getElementById('left_pane_fold_header'));
                 init_pane_folding(document.getElementById('right_pane_fold_header'));
@@ -393,9 +393,9 @@
                 document.getElementById('right_pane_toggle_nav').addEventListener('click', handle_toggle_side_bar_button);
         </script>
 
-        <script src="/TFS-campaign/obs.html/static/load_dirtree_footer.js" type="text/javascript"></script>
+        <script src="/Lurra-Obsidian/obs.html/static/load_dirtree_footer.js" type="text/javascript"></script>
 
-
+        
 
 
 
